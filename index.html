@@ -12,10 +12,10 @@
   </head>
   <body>
     <header class="page-header">
-      <div class="container">
+      <div class="container navigation-container">
         <nav class="navigation">
-        <a class="logo link" href="" lang="en"
-          ><span class="color-logo">Web</span>Studio</a
+        <a class="logo header-logo link" href="" lang="en"
+          >Web<span class="header-color-logo">Studio</span></a
         >
         <ul class="menu list">
           <li class="menu-item">
@@ -28,31 +28,34 @@
             <a class="menu-link link" href="">Контакты</a>
           </li>
         </ul>
-        <ul class="contact list">
-          <li class="contact-items">
-            <a class="contact-link link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="contact-items">
-            <a class="contact-link link" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
-      </nav></div>
+        
+      </nav>
+      <ul class="contact list">
+        <li class="contact-items">
+          <a class="contact-link link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="contact-items">
+          <a class="contact-link link" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
+        </li>
+      </ul>
+    </div>
       
     </header>
     <main class="main">
       <section class="hero">
-        <div class="container hero-items">
+        <div class="container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
           <button class="hero-button" type="button">Заказать услугу</button></div>
         
       </section>
-       <section class="benefits container">
-        <h2 class="benefits-title">Наши преимущества</h2>
-        <ul class="benefits-list list section">
+       <section class="section">
+        <div class="container">
+          <h2 class="benefits-title ">Наши преимущества</h2>
+           <ul class="benefits-list list">
           <li class="benefits-list-item">
             <h3 class="benefits-list-item-title">Внимание к деталям</h3>
             <p class="benefits-list-item-text">
@@ -82,54 +85,60 @@
               плановых заданий.
             </p>
           </li>
-        </ul>
+        </ul></div>
+        
+       
         
       </section>
-      <section class="work container ">
-        <h2 class="work-title">Чем мы занимаемся</h2>
-        <ul class="work-list list">
-          <li class="work-list-item">
-            <img
-              class="work-list-pic"
-              src="./images/img.jpg"
-              width="370"
-              height="294"
-              alt="мужчина пишет код на клавиатуре"
-            />
-          </li>
-          <li class="work-list-item">
-            <img
-              class="work-list-pic"
-              src="./images/img1.jpg"
-              width="370"
-              height="294"
-              alt="женщина держит телефон в руках и смотрит на экран ноутбука"
-            />
-          </li>
-          <li class="work-list-item">
-            <img
-              class="work-list-pic"
-              src="./images/img2.jpg"
-              width="370"
-              height="294"
-              alt="планшет с изображением палитры красок в руках человека"
-            />
-          </li>
-        </ul>
+      <section class="work section">
+        <div class="container">
+          <h2 class="work-title">Чем мы занимаемся</h2>
+          <ul class="work-list list">
+            <li class="work-list-item">
+              <img
+                class="work-list-pic"
+                src="./images/img.jpg"
+                width="370"
+                height="294"
+                alt="мужчина пишет код на клавиатуре"
+              />
+            </li>
+            <li class="work-list-item">
+              <img
+                class="work-list-pic"
+                src="./images/img1.jpg"
+                width="370"
+                height="294"
+                alt="женщина держит телефон в руках и смотрит на экран ноутбука"
+              />
+            </li>
+            <li class="work-list-item">
+              <img
+                class="work-list-pic"
+                src="./images/img2.jpg"
+                width="370"
+                height="294"
+                alt="планшет с изображением палитры красок в руках человека"
+              />
+            </li>
+          </ul>
+        </div>
+       
       </section>
-      <section class="team">
-        <div class="container section">
+      <section class="team section">
+        <div class="container">
           <h2 class="team-title">Наша команда</h2>
           <ul class="team-list list">
-            <li class="team-list-item card-container">
+            <li class="team-list-item">
               <img class="team-list-pic"
                 src="./images/img3.jpg"
                 width="270"
                 height="260"
                 alt="улыбающийся мужчина в очках"
               />
-              <h3 class="team-list-item-title">Игорь Демьяненко</h3>
-              <p class="team-list-item-text">Product Designer</p>
+              <div class="team-list-content"> <h3 class="team-list-item-title">Игорь Демьяненко</h3>
+                <p class="team-list-item-text">Product Designer</p></div>
+             
               
             </li>
   
@@ -140,8 +149,9 @@
                 height="260"
                 alt="улыбающаяся женщина в очках"
               />
-              <h3 class="team-list-item-title">Ольга Репина</h3>
-              <p class="team-list-item-text">Frontend Developer</p>
+              <div class="team-list-content"><h3 class="team-list-item-title">Ольга Репина</h3>
+                <p class="team-list-item-text">Frontend Developer</p></div>
+              
             </li>
   
             <li class="team-list-item card-container">
@@ -151,8 +161,9 @@
                 height="260"
                 alt="улыбающийся мужчина"
               />
-              <h3 class="team-list-item-title">Николай Тарасов</h3>
-              <p class="team-list-item-text">Marketing</p>
+              <div class="team-list-content"><h3 class="team-list-item-title">Николай Тарасов</h3>
+                <p class="team-list-item-text">Marketing</p></div>
+              
             </li>
   
             <li class="team-list-item card-container">
@@ -162,8 +173,9 @@
                 height="260"
                 alt="улыбающийся мужчина в очках"
               />
-              <h3 class="team-list-item-title">Михаил Ермаков</h3>
-              <p class="team-list-item-text">UI Designer</p>
+              <div class="team-list-content"><h3 class="team-list-item-title">Михаил Ермаков</h3>
+                <p class="team-list-item-text">UI Designer</p></div>
+              
             </li>
           </ul>
 
@@ -172,9 +184,9 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container footer-item">
-        <a class="logo-footer logo link" href="" lang="en"
-        ><span class="color-logo">Web</span><span class="secondary-color-logo">Studio</span></a
+      <div class="container">
+        <a class="logo footer-logo link" href="" lang="en"
+        >Web<span class="footer-color-logo">Studio</span></a
       >
       <address>
         <ul class="contacts list">

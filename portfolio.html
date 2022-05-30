@@ -13,14 +13,14 @@
   </head>
   <body>
     <header class="page-header">
-      <div class="container">
+      <div class="container navigation-container">
         <nav class="navigation">
-        <a class="logo link" href="" lang="en"
-          ><span class="color-logo">Web</span>Studio</a
+        <a class="logo header-logo link" href="" lang="en"
+          >Web<span class="header-color-logo">Studio</span></a
         >
         <ul class="menu list">
           <li class="menu-item">
-            <a class="menu-link link" href="./index.html">Студия</a>
+            <a class="menu-link link" href="">Студия</a>
           </li>
           <li class="menu-item">
             <a class="menu-link link" href="./portfolio.html">Портфолио</a>
@@ -29,23 +29,27 @@
             <a class="menu-link link" href="">Контакты</a>
           </li>
         </ul>
-        <ul class="contact list">
-          <li class="contact-items">
-            <a class="contact-link link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="contact-items">
-            <a class="contact-link link" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
-      </nav></div>
+        
+      </nav>
+      <ul class="contact list">
+        <li class="contact-items">
+          <a class="contact-link link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="contact-items">
+          <a class="contact-link link" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
+        </li>
+      </ul>
+    </div>
+      
     </header>
     <main class="body">
-      <section class="works section container">
-        <h1 class="caption">Наши работы</h1>
+      <section class="section">
+        <div class="container">
+          <h1 class="caption">Наши работы</h1>
         <ul class="button-items list">
         <li class="button-item">
           <button class="button" type="button">Все</button>
@@ -64,7 +68,7 @@
         </li>
       </ul>
       <ul class="product-list list">
-        <li class="product-list-item product-card">
+        <li class="product-list-item">
           <img
             class="product-list-item-pic"
             src="./images/1.jpg"
@@ -196,12 +200,14 @@
           
         </li>
       </ul>
+        </div>
+        
       </section>
     </main>
     <footer class="footer">
-      <div class="container footer-item">
-        <a class="logo-footer logo link" href="" lang="en"
-        ><span class="color-logo">Web</span><span class="secondary-color-logo">Studio</span></a
+      <div class="container">
+        <a class="logo footer-logo link" href="" lang="en"
+        >Web<span class="footer-color-logo">Studio</span></a
       >
       <address>
         <ul class="contacts list">
